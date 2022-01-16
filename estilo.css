@@ -1,0 +1,85 @@
+body{
+   background-color: rgba(103, 103, 172, 0.575);
+    font: normal 15pt Arial;
+    background-image: url(fundo.jpg);
+    background-size: cover;
+    background-position:left center;
+    background-attachment: fixed;
+    height: 98vh;
+    
+    }
+    
+   /* header{
+     text-align: center;
+     background-color: white;
+     width: 98vw;
+     align-items: center;
+     position: relative;
+     left: 50%;
+     transform: translate(-50%);
+    
+    }*/
+    main{
+        border: 1px solid black;
+        max-width: 800px;
+        border-radius: 10px;
+        background-color: wheat;
+        margin: auto;
+        padding: 12px;
+        box-shadow: 6px 12px 4px rgba(0, 0, 0, 0.329);
+    }
+    main > h2{
+        font-family:serif;
+    }
+    h2, h3, h4{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+    #calculadora{
+        border-radius: 5px;
+        border: 0.5px solid black;
+        background-color: lightskyblue;
+        padding: 12px;
+        max-width: 500px;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+        
+    }
+    #botao{
+        background-color: yellow;
+        border-radius: 3px;
+    }
+    #botao:hover{
+       background-color: orange;
+    }
+    #res{
+        border-radius: 5px;
+        border: 0.5px solid black;
+        background-color: lightskyblue;
+        padding: 12px;
+        margin-top: 12px;
+        margin-bottom: 15px;
+        max-width: 500px;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    span > a{
+        color: green;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+        font-size: bolder;
+    }
+    footer{
+        padding: 20px;
+        text-align: center;
+        font-style: italic;
+        background-color: grey;
+        margin-top: 12px;
+    }
+   

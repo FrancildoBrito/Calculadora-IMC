@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <link rel="shortcut icon" href="imagens/android-icon-48x48.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <!--<h1>Calculadora IMC</h1>--> 
+    </header>
+    <main>
+        <section>
+            <h2>O que é o IMC?</h2>
+            <p>IMC é a sigla para Índice de Massa Corporal,que é um cálculo que serve para avaliar se a pessoa está dentro do seu peso ideal em relação à altura.De acordo com o valor do resultado de IMC, a pessoa pode saber se está dentro do peso ideal, acima ou abaixo do peso desejado.O cálculo do IMC deve ser feito usando a seguinte fórmula matemática: Peso ÷ (altura x altura). Para um melhor resultado os dados devem ser consultados por um profissional de saúde.</p>
+            <h4>Digite abaixo seus dados para ver seu IMC</h4>
+        </section>
+            <section id="calculadora">
+                <p>Digite seu peso: <input type="number" name="txtpes" id="txtpes"></p>
+                <p>Digite sua altura: <input type="number" name="txtalt" id="txtalt"></p>
+                <p><input id="botao" type="button" value="Calcular IMC" onclick="calcular()"></p>
+            </section>
+                        <div id="res">
+                <p>Aguardando para apresentar resultado...</p>
+                        </div>
+                 <h2>O que fazer para ter um IMC saudável?</h2>
+                 <p>Para manter seu IMC com números ideais, uma boa dieta, com alimentos variados e saúdaveis aliados a prática de exercicios são indispensáveis. É importante que todo o processo seja acompanhado por profissionais, como nutricionistas e personal trainers.</p>
+                 <h3>Como perder peso de forma saúdavel para obter um bom IMC?</h3>
+                 <p>Para tal, é necessário aprender a se alimentar de melhor forma, sem limitar sua alimentação, mas buscando alimentos mais saúdaveis e que lhe ajudem na queima de gordura.</p>
+                 <h3>E para aumentar meu IMC?</h3>
+                 <p>Para ter um ganho de peso saudável, não se deve comer somente muitos alimentos calóricos e sim priorizar alguns alimentos com boa quantidade calórica, mas ricos em nutrientes benéficos e com pouca quantidade de gordura saturada (de origem animal) e gordura trans (de industrializados).</p>
+                  <span>Algumas informações foram retiradas do site <a href="https://www.tuasaude.com/calculadora/imc/" target="_blank" rel="noopener noreferrer">Tua Saúde</a>, não deixe de visitá-lo.</span>
+    
+    </main>
+    <footer>Desenvolvido por <a href="https://github.com/FrancildoBrito" target="_blank" rel="noopener noreferrer">Francildo Brito </a><a href="https://www.youtube.com/channel/UCj1nq6Ik9JgWu90hHZqLkDw">(&copy;Hello Devs)</a></footer>
+    <script src="funcao.js"></script>
+</body>
+</html>
