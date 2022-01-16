@@ -9,7 +9,7 @@ function calcular() {
 
     if(imc >= 18.5 && imc <= 24.9){
         res.innerHTML = `<p> O seu IMC é de ${imc.toFixed(2)},
-         esse valor é considerado NORMAL. Procure um médico para um resultado mais confiavél</p>`
+         esse valor é considerado NORMAL. Procure um médico para um resultado mais confiavél.</p>`
          res.style.background= 'green'
          res.style.color= 'white'
 

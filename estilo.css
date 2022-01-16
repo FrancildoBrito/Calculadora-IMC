@@ -33,6 +33,7 @@ body{
     }
     h2, h3, h4{
         text-align: center;
+        background-image: linear-gradient(to right, rgba(255, 68, 0, 0.568), rgba(255, 166, 0, 0.459));
     }
     p{
         text-align: center;
